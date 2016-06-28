@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F98C08A71D1A00C200FF89DD /* TipPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F98C08A71D1A00C200FF89DD /* Tip Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tip Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F98C08AA1D1A00C200FF89DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F98C08AC1D1A00C200FF89DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F98C08AF1D1A00C200FF89DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		F98C08A81D1A00C200FF89DD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F98C08A71D1A00C200FF89DD /* TipPro.app */,
+				F98C08A71D1A00C200FF89DD /* Tip Calculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F98C08A61D1A00C200FF89DD /* TipPro */ = {
+		F98C08A61D1A00C200FF89DD /* Tip Calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F98C08B91D1A00C200FF89DD /* Build configuration list for PBXNativeTarget "TipPro" */;
+			buildConfigurationList = F98C08B91D1A00C200FF89DD /* Build configuration list for PBXNativeTarget "Tip Calculator" */;
 			buildPhases = (
 				F98C08A31D1A00C200FF89DD /* Sources */,
 				F98C08A41D1A00C200FF89DD /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = TipPro;
+			name = "Tip Calculator";
 			productName = TipPro;
-			productReference = F98C08A71D1A00C200FF89DD /* TipPro.app */;
+			productReference = F98C08A71D1A00C200FF89DD /* Tip Calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,10 +96,11 @@
 				TargetAttributes = {
 					F98C08A61D1A00C200FF89DD = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = SLM5J9G65E;
 					};
 				};
 			};
-			buildConfigurationList = F98C08A21D1A00C200FF89DD /* Build configuration list for PBXProject "TipPro" */;
+			buildConfigurationList = F98C08A21D1A00C200FF89DD /* Build configuration list for PBXProject "Tip Calculator" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F98C08A61D1A00C200FF89DD /* TipPro */,
+				F98C08A61D1A00C200FF89DD /* Tip Calculator */,
 			);
 		};
 /* End PBXProject section */
@@ -249,10 +250,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TipPro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Kalkat.TipPro;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Tip Calculator";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -260,17 +264,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TipPro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Kalkat.TipPro;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Tip Calculator";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F98C08A21D1A00C200FF89DD /* Build configuration list for PBXProject "TipPro" */ = {
+		F98C08A21D1A00C200FF89DD /* Build configuration list for PBXProject "Tip Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F98C08B71D1A00C200FF89DD /* Debug */,
@@ -279,13 +286,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F98C08B91D1A00C200FF89DD /* Build configuration list for PBXNativeTarget "TipPro" */ = {
+		F98C08B91D1A00C200FF89DD /* Build configuration list for PBXNativeTarget "Tip Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F98C08BA1D1A00C200FF89DD /* Debug */,
 				F98C08BB1D1A00C200FF89DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
